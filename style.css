@@ -1,3 +1,10 @@
+/* Responsividade a partir do 685px width */
+
+/* @media only screen and (max-device-width: 685px) {
+    ......
+} */
+
+
 html {
     scroll-behavior: smooth;
   }
@@ -57,12 +64,10 @@ a {
 section {
     width: 100%;
     height: 600px;
-    /* background-image: url(/assets/img/sunset-anime-comet-stars-scenery-digital-art-4k-wallpaper-uhdpaper.com-771@0@i.WebP); */
 }
 
 .section-left {
     float: left;
-    /* max-width: 100%; */
     width: 50%;
     display: flex;
     align-items: center;
@@ -91,16 +96,14 @@ section {
     width: 100%;
     display: flex;
     margin-left: 100px;
-    /* align-items: center;
-    justify-content: center; */
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .section-p {
     width: 50%;
     margin-left: 100px;
     margin-bottom: 30px;
-
 }
 
 .section-btn {
@@ -173,9 +176,52 @@ section {
     color: black;
     display: flex;
     width: 100%;
-    background-color: aqua;
+    height: 100px;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
+
+.projetos-text-left {
+    width: 50%;
+    height: 700px;
+    color: black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.projetos-text-right {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 700px;
+    color: black;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.projetos-text-left img, .projetos-text-right img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.projetos-text-left h3, .projetos-text-right h3 {
+    margin-top: 20px;
+}
+
+.projetos-text-left p, .projetos-text-right p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Responsividade a partir do 685px width */
+/* @media only screen and (max-device-width: 685px) {
+    ......
+} */
