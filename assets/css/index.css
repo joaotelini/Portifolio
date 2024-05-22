@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+#cv:hover{
+    background-color: #0dcaf000;
+    color: white;
+    transition: background 1s;
+}
+
+.text-justify {
+    text-align: justify;
+}
